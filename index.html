@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1 class="p-3"><u> SIMPLE CALCULATOR  </u></h1></center>
+
+<div class="main">
+    <div class="row">
+            <div class="col">
+            <input class="inpt" type="text" name="" id="result">
+            </div>
+    </div>
+<div class="row">
+
+        <div class="col">
+            <button type="button" type="button" class=" border-dark btn clr btn-light" onclick="clearResult()">C</button type="button">
+        </div>
+    </div>
+
+
+<div class="row">
+    <div class="col">
+       <button type="button" class="border border-dark btn btn-light butt" onclick="getNumber('7')">7</button type="button">
+        <button type="button" class="border border-dark btn btn-light butt" onclick="getNumber('8')">8</button type="button">
+        <button type="button" class="border border-dark btn btn-light butt" onclick="getNumber('9')">9</button type="button">
+        <button type="button" class="border border-dark btn btn-light op"onclick="getNumber('/')">÷</button type="button">
+     </div>
+</div>
+
+<div class="row">
+    <div class="col">
+       <button type="button" class="border border-dark btn btn-light butt"onclick="getNumber('4')">4</button type="button">
+        <button type="button" class="border border-dark btn btn-light butt"onclick="getNumber('5')">5</button type="button">
+        <button type="button" class="border border-dark btn btn-light butt"onclick="getNumber('6')">6</button type="button">
+        <button type="button" class="border border-dark btn btn-light op"onclick="getNumber('*')">x</button type="button">
+     </div>
+</div>
+
+<div class="row">
+    <div class="col">
+       <button type="button" class="border border-dark btn btn-light butt" onclick="getNumber('1')">1</button type="button">
+        <button type="button" class="border border-dark btn btn-light butt"onclick="getNumber('2')">2</button type="button">
+        <button type="button" class="border border-dark btn btn-light butt"onclick="getNumber('3')">3</button type="button">
+        <button type="button" class="border border-dark btn btn-light op"onclick="getNumber('-')">-</button type="button">
+     </div>
+</div>
+
+<div class="row">
+    <div class="col">
+       <button type="button" class="border border-dark btn btn-light butt"onclick="getNumber('.')">.</button type="button">
+        <button type="button" class="border border-dark btn btn-light butt"onclick="getNumber('0')">0</button type="button">
+        <button type="button" class="border border-dark btn btn-light butt"onclick="getResult()">=</button type="button">
+        <button type="button" class="border border-dark btn btn-light op"onclick="getNumber('+')">+</button type="button">
+     </div>
+</div> 
+
+    <script src="app.js"></script>
+</body>
+</html>

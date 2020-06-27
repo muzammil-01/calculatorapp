@@ -1,0 +1,40 @@
+.main{
+    width:20%;
+    margin: 0 auto;
+}
+.inpt{
+    width: 100%;
+    height: 200%;	
+    box-shadow: 2px 2px 3px grey;
+
+}
+.clr{
+    width: 100%;
+    margin-top: 35px;
+    background-color: lightgrey;
+    font-size: 20px;
+    border: 2px solid grey !important;
+    box-shadow: 2px 2px 3px grey;
+
+
+}
+.butt{
+    margin-top: 10px;
+    width: 65px;
+    border: none !important;
+    background-color: lightgrey;
+    border: 2px solid grey !important;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px grey;
+
+}
+.op{
+    margin-top: 10px;
+    width: 65px;
+    border: none !important;
+    background-color: lightgrey;
+    border: 2px solid grey !important;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px grey;
+
+}
